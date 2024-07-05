@@ -1,27 +1,39 @@
-# PasswordStrengthApp
+# Password Strength Checker
+
+- [DEMO](https://password-strength-checker-eight.vercel.app/)
+
+## Project Overview
+
+"Password Strength Checker" - check the strength of your password. Only Letters/Digits/Symbols - the password is easy,
+combination of Letters + Symbols/Letters + digits/Digits + symbols - the password is medium,
+has Letters, Symbols and Mumbers - the password is strong. The color of the sections will depend on the strength of the password.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
 
-## Development server
+## Setup and Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone this repository:
 
-## Code scaffolding
+    ```
+    git clone https://github.com/nk8bnj/password-strength-checker.git
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Navigate to the project directory:
 
-## Build
+    ```
+    cd password-strength-checker
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Install dependencies:
 
-## Running unit tests
+    ```
+    npm install
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Start the development server:
 
-## Running end-to-end tests
+    ```
+    npm start
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. Open your browser and go to `http://localhost:4200` to view the application.
