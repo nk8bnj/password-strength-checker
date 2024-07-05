@@ -10,7 +10,16 @@
   background-position: center;
 
   &__title {
-    margin-bottom: 20px;
-    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    margin-bottom: 70px;
+
+    img {
+      width: 150px;
+      margin-left: 10px;
+    }
   }
 }
